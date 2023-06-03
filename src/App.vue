@@ -1,13 +1,16 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
+import ListProducts from './components/ListProducts.vue';
 
 
 export default {
   components: {
     AppHeader,
     AppFooter,
+    ListProducts,
   },
+
   // copia/incollato array "links da figlio a padre" e cambiato nome in menu per non dover passare il props: " links="links" a riga 75 (funzionerebbe comunque ma così è più chiaro cosa succede)"
   data() {
     return {
@@ -75,8 +78,9 @@ export default {
   <AppHeader :links="menu" />
 
   <main>
+
     <div class="container">
-      CONTENT GOES HERE
+      <ListProducts />
     </div>
     
   </main>
