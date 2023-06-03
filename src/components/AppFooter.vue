@@ -7,6 +7,10 @@
 
 // const count = ref(0)
 
+// export default {
+//   name: "AppFooter",
+// }
+
 </script>
 
 <!-- HTML -->
