@@ -11,6 +11,10 @@
 //   name: "AppFooter",
 // }
 
+export default {
+  name: "AppFooter",
+}
+
 </script>
 
 <!-- HTML -->
@@ -197,9 +201,10 @@
 
         .big-logo {
             width: 300px;
-            height: 100%;
+            height: 300px;
             background-image: url(../../public/dc-logo-bg.png);
-            background-position:center
+            background-size: 300px 330px;
+            background-position-y: -15px
         }
        
     }

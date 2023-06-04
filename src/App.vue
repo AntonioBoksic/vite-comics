@@ -79,9 +79,15 @@ export default {
 
   <main>
 
-    <div class="container">
-      <ListProducts />
+
+    <div class="jumbotron">
+      <img src="../public/jumbotron.jpg" alt="">
     </div>
+
+
+    
+    <ListProducts />
+    
     
   </main>
 
@@ -96,18 +102,29 @@ export default {
 
 
 main {
-  background-color: green;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(30, 30, 30);
+  // height: 100px;
+  padding-bottom: 20px;
+ 
 
   .container {
   margin: 0 auto;
-  height: 50%;
   width: 80%;
-  border: 1px solid red;
+  // border: 1px solid red;
   text-align: center;
+  
+}
+
+.jumbotron {
+  height: 300px;
+  
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit:cover;
+      object-position: top;
+      
+    }
   
 }
   

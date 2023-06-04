@@ -83,7 +83,7 @@ export default {
 
     <div class="container">
 
-      <div>
+      <div class="logo-div">
         <img src="../../public/dc-logo.png" alt="logo">
       </div>
 
@@ -147,9 +147,13 @@ header {
   }
 
   .active {
-    color: blue;
-    border: blue 1px solid;
+    color: #0282f9;
+    border: #0282f9 1px solid;
     padding: 5px;
+  }
+
+  img {
+    width: 70px;
   }
 
 
